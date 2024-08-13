@@ -10,17 +10,17 @@ async function adminonly(req, res, next) {
     if (!decode || !decode.userID) {
       throw Error("Invalid user id ");
     }
-    const admin=await User.findOne({ _id: decode.userID });
-    if (!admin) {
+    const owner=await User.findOne({ _id: decode.userID });
+    if (!owner) {
       return res.status(401)({ error: "user is been not there" });
     }
-    if (admin.role === "House_owners") {
-      req.admin=admin;
+    if (owner.role === "houseowner") {
+     // req.admin=houseowner;
       next();
     } else {
       return res
         .status(500)
-        .json({ error: "the admin valid to access" });
+        .json({ error: "the houseowner valid to access" });
     }
   } catch (err) {
     console.log("jwt verifcation error", err);

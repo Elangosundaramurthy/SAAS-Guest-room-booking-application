@@ -1,7 +1,9 @@
 const mongoose = require('mongoose');
 
 const planSchema = new mongoose.Schema({
-  plan: { 
+    owner_name:{
+        type: String, 
+    }, plan: { 
         type: String,
     },
     price: { 

@@ -14,8 +14,7 @@ async function useronly(req,res,next){
     if(!useron){
         return res.status(401).json({error:'user not found'});
     }
-    if(useron.role === 'customers'){
-        req.useron=useron;
+    if(useron.role === 'customer'){
         next();
     }else{
         return res.status(403).json({error:'user not found'});

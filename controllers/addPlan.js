@@ -1,8 +1,8 @@
 const Plan = require('../model/planModel');
 class AddPlan {
     async addPlan(req, res) {
-        const { name, price, feature, Duration,number_of_rooms,location,minmum_num_days ,maximum_num_days ,number_of_beds } = req.body;
-        if (!name) {
+        const { owner_name, price, feature,number_of_rooms,location,minmum_num_days ,maximum_num_days ,number_of_beds } = req.body;
+        if (!owner_name) {
             return res.status(400).json({ error: 'name fields are required' });
         }
         try {
@@ -11,10 +11,9 @@ class AddPlan {
                 return res.status(400).json({ error: 'Plan already exists' });
             } */
             const result = await Plan.collection.insertOne({
-                name,
+                owner_name,
                 price,
                 feature,
-                Duration,
                 number_of_rooms,
                 location,
                 minmum_num_days,
@@ -36,7 +35,7 @@ try{
     const roomid=req.params.id;
     console.log(body,roomid);
     const onlykets=[
-        "name",
+        "owner_name",
         "price",
         "feature",
         "number_of_rooms",

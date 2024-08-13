@@ -14,7 +14,7 @@ password:{
 },
 role:{
     type:String,
-    enum:['user','admin'],
+    enum:['customer','houseowner'],
     default:'user'
 },
 token:{

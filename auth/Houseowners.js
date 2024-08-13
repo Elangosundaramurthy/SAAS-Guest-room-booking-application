@@ -14,7 +14,7 @@ async function adminonly(req, res, next) {
     if (!admin) {
       return res.status(401)({ error: "user is been not there" });
     }
-    if (admin.role === "admin") {
+    if (admin.role === "House_owners") {
       req.admin=admin;
       next();
     } else {

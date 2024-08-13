@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const userController = require('../controllers/usercontroller');
 const authMiddleware = require('../auth/onlyuser');
-const useronly = require('../auth/useronly');
-const adminonly=require('../auth/adminonly')
+const useronly = require('../auth/customers');
+const adminonly=require('../auth/Houseowners')
 router.post('/register', userController.register);
 router.get('/login', userController.login);
 router.get('/protected',authMiddleware,(userController.protectedRoute));

@@ -1,0 +1,68 @@
+[{
+  "_id": {
+    "$oid": "6687eb4bbcb2fec0e4b94b36"
+  },
+  "username": "eewrwerwerewr",
+  "mobile": 343324234234434,
+  "email": "e@gmail.com",
+  "password": "$2b$10$bL0nVrLbGLbdjfJSi2Ncg.Lh215qcIRtqpKHD57qxQDUkEBzRY8US",
+  "role": "houseowner",
+  "createdAt": {
+    "$date": "2024-07-05T12:47:07.276Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-05T12:47:07.276Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66ab645b09bb88f9f6de4e02"
+  },
+  "username": "hari",
+  "mobile": 2134567879,
+  "email": "eewrs7741140@gmail.com",
+  "password": "$2b$10$lRXZhX6POBeRNsJ68PxmUOcRf5.vHuiXB/R.MLss9pRbbspHpGIj2",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2024-08-01T10:32:59.146Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-01T10:32:59.146Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bb89b77a3be1c9b010d55d"
+  },
+  "username": "Elango",
+  "mobile": 7010491931,
+  "email": "es7741140@gmail.com",
+  "password": "$2b$10$Qwm/Sp51BhoNzWHhh7u8eulxtSbalhJ/E7KNyE2rJuKW372pyRA9C",
+  "role": "customer",
+  "createdAt": {
+    "$date": "2024-08-13T16:28:39.654Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T16:28:39.654Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bb92b18a32e13e8dade7c8"
+  },
+  "username": "ashik",
+  "mobile": 3434352232,
+  "email": "ashik@gmail.com",
+  "password": "$2b$10$eeNxL.liHW9pyE7QVYND5uveYK24DKhPhMCxLgk.pbGvwC5jJP5N.",
+  "role": "houseowner",
+  "createdAt": {
+    "$date": "2024-08-13T17:06:57.144Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T17:06:57.144Z"
+  },
+  "__v": 0
+}]

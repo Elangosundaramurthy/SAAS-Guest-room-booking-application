@@ -1,0 +1,102 @@
+[{
+  "_id": {
+    "$oid": "66bb186469ea12c4bbaf339f"
+  },
+  "user_id": {
+    "$oid": "66ab645b09bb88f9f6de4e02"
+  },
+  "plan_id": {
+    "$oid": "66bb004823388840b32459d6"
+  },
+  "start_date": {
+    "$date": "2024-08-13T08:25:08.355Z"
+  },
+  "username": "hari",
+  "mobile_number": "2134567879",
+  "email_id": "eewrs7741140@gmail.com",
+  "price_of_the_paln": "2000",
+  "extra_features": [
+    "swing pool",
+    "camp fire "
+  ],
+  "number_of_rooms": "5",
+  "location": "erode",
+  "minimum_days": "3-days",
+  "maximum_days": "10-days",
+  "numbers_of_beds": "2-beds",
+  "createdAt": {
+    "$date": "2024-08-13T08:25:08.361Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T08:25:08.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bb8f9b843337f6cad8b094"
+  },
+  "user_id": {
+    "$oid": "66bb89b77a3be1c9b010d55d"
+  },
+  "plan_id": {
+    "$oid": "66bb8e969eee24bb6504f34f"
+  },
+  "start_date": {
+    "$date": "2024-08-13T16:53:47.858Z"
+  },
+  "username": "Elango",
+  "mobile_number": "7010491931",
+  "email_id": "es7741140@gmail.com",
+  "price_of_the_paln": "3000",
+  "extra_features": [
+    "swing pool",
+    "camp fire "
+  ],
+  "number_of_rooms": "5",
+  "location": "erode",
+  "minimum_days": "4-days",
+  "maximum_days": "10-days",
+  "numbers_of_beds": "5-beds",
+  "createdAt": {
+    "$date": "2024-08-13T16:53:47.862Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T16:53:47.862Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66bb937a8a32e13e8dade7d2"
+  },
+  "user_id": {
+    "$oid": "66bb89b77a3be1c9b010d55d"
+  },
+  "plan_id": {
+    "$oid": "66bb933f8a32e13e8dade7cd"
+  },
+  "start_date": {
+    "$date": "2024-08-13T17:10:18.829Z"
+  },
+  "username": "Elango",
+  "mobile_number": "7010491931",
+  "email_id": "es7741140@gmail.com",
+  "price_of_the_paln": "10000",
+  "extra_features": [
+    "swing pool",
+    "insruments  "
+  ],
+  "number_of_rooms": "5",
+  "location": "kovai",
+  "minimum_days": "4-days",
+  "maximum_days": "30-days",
+  "numbers_of_beds": "2-beds",
+  "createdAt": {
+    "$date": "2024-08-13T17:10:18.831Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-13T17:10:18.831Z"
+  },
+  "__v": 0
+}]

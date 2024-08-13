@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "66bb004823388840b32459d6"
+  },
+  "name": "elango",
+  "price": 2000,
+  "feature": [
+    "swing pool",
+    "camp fire "
+  ],
+  "Duration": null,
+  "number_of_rooms": "5",
+  "location": "kochi",
+  "minmum_num_days": "3-days",
+  "maximum_num_days": "10-days",
+  "number_of_beds": "2-beds",
+  "updatedAt": {
+    "$date": "2024-08-13T16:55:57.610Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66bb8e969eee24bb6504f34f"
+  },
+  "owner_name": "karthick",
+  "price": "3000",
+  "feature": [
+    "swing pool",
+    "camp fire "
+  ],
+  "number_of_rooms": "5",
+  "location": "erode",
+  "minmum_num_days": "4-days",
+  "maximum_num_days": "10-days",
+  "number_of_beds": "5-beds"
+},
+{
+  "_id": {
+    "$oid": "66bb933f8a32e13e8dade7cd"
+  },
+  "owner_name": "deeraj",
+  "price": "10000",
+  "feature": [
+    "swing pool",
+    "insruments  "
+  ],
+  "number_of_rooms": "5",
+  "location": "chennai",
+  "minmum_num_days": "3-days",
+  "maximum_num_days": "30-days",
+  "number_of_beds": "2-beds",
+  "updatedAt": {
+    "$date": "2024-08-13T17:11:09.046Z"
+  }
+}]

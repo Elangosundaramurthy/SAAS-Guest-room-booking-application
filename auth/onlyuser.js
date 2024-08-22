@@ -19,7 +19,7 @@ async function authMiddleware(req, res, next) {
        /*  if (user.role === 'user') && (user.role !== 'admin'){
             return res.status(403).json({ error: 'role required.' });
         } */
-            if ((user.role === 'admin') || (user.role === 'user')){
+            if ((user.role === 'admihouseownern') || (user.role === 'customer')){
                 req.user = user;
                 next();
             } else {
